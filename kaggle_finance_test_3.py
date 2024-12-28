@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 
 # 데이터 로드
-data_file = 'data/yc_s+f2024_utf8_file.csv'  # CSV 파일 경로
+data_file = 'yc_s+f2024_utf8_file.csv'  # CSV 파일 경로
 data = pd.read_csv(data_file)
 
 # Streamlit 앱 구성
